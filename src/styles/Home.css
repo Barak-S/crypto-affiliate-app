@@ -7,27 +7,35 @@ img.img-thumbnail{
     height: 250px;
 }
 
-/* .card1-list{
+.card1-list{
     display: flex;
     flex-direction: row;
-    padding: 3rem 1.5rem;
+    padding: 1.5rem;
     margin: 0 auto;
-} */
+}
+
+@media (max-width: 977px) {
+    .card1-list{
+      flex-direction: column;
+    }
+    /* .card1{
+        margin: 1rem 0rem;
+    } */
+}
   
 .cards-column{
-    margin: 0 auto;
     padding: 0px;
+    margin-top: 300px;
 }
+
   
 .card1{
     display: flex;
     position: relative;
     flex-direction: column;
-    height: 650px;
-    width: 400px;
+    width: 100%;
     min-width: 256px;
     padding: 1.25rem;
-    margin: 1.25rem;
     border-radius: 16px;
     box-shadow: -0.125rem 0 1.25rem #000;
     transition: .3s;
