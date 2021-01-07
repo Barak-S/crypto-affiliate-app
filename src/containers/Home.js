@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Home.css';
-import { Card, Carousel, Button, Modal, Col, Image } from 'react-bootstrap';
+import { Col, Image } from 'react-bootstrap';
 
 const Home = () => {
 
@@ -24,8 +24,9 @@ const Home = () => {
 
     return (
         <div className="home">
-            {/* Header content */}
-            <p>home</p>
+            <Col xs={12} sm={12} md={8} lg={8} className="home-banner">
+                <h1>BTC is the useful Bitcoin resource guiding you to the best exchanges, most-trusted wallets, nearest ATMs, efficient mining equipment, all in one cohesive site</h1>
+            </Col>
             <div className="banner-div">
                 <div class="diagonal-top"></div>
                 <div class="diagonal-middle">
@@ -37,7 +38,7 @@ const Home = () => {
                 </div>
                 <div class="diagonal-bottom"></div>
             </div>
-                <Col xs={12} sm={12} md={10} lg={10} className="cards-column">
+                <Col xs={12} sm={12} md={10} lg={10} className="cards-div">
                     <section className="card1-list">
                         {cards.map((card,i) =>{
                             return(

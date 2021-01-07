@@ -1,5 +1,21 @@
 div.home{
     text-align: center;
+    margin-top: 40vh;
+}
+
+.align-auto{
+    margin: 0 auto;
+}
+
+.home-banner{
+    height: 80vh;
+    margin: 0 auto;
+}
+
+.cards-div{
+    margin: 0 auto;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
 }
 
 img.img-thumbnail{
@@ -23,12 +39,6 @@ img.img-thumbnail{
     } */
 }
   
-.cards-column{
-    padding: 0px;
-    margin-top: 300px;
-}
-
-  
 .card1{
     display: flex;
     position: relative;
@@ -45,3 +55,28 @@ img.img-thumbnail{
     transform: translateY(-1.5rem);
 }
   
+
+.banner-div{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+  
+.diagonal-top {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 100vw 0 0;
+    border-color: transparent #2d8cff transparent transparent;
+}
+.diagonal-middle {
+    padding: 50px 0;
+    background: #2d8cff;
+}
+.diagonal-bottom {
+    border-width: 50px 100vw 0 0;
+    border-color: #2d8cff transparent transparent transparent;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}

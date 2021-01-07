@@ -14,32 +14,6 @@
 }
 
 
-.banner-div{
-  margin-top: 30vh;
-  color: white;
-  font-size: 24px;
-  font-weight: 600;
-}
-
-.diagonal-top {
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 50px 100vw 0 0;
-  border-color: transparent #2d8cff transparent transparent;
-}
-.diagonal-middle {
-  padding: 50px 0;
-  background: #2d8cff;
-}
-.diagonal-bottom {
-  border-width: 50px 100vw 0 0;
-  border-color: #2d8cff transparent transparent transparent;
-  width: 0;
-  height: 0;
-  border-style: solid;
-}
-
 div.row{
   margin: 0px;
   padding: 0px;
