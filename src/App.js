@@ -1,8 +1,9 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import NavBar from './components/NavBar'
-
 import Home from './containers/Home'
+import Footer from './containers/Footer'
 
 
 
@@ -14,7 +15,8 @@ function App() {
 
         <Switch>
           <Route exact path= "/" render={props=>(<Home {...props}/>)}/>
-        </Switch>   
+        </Switch>  
+        <Footer/> 
       </div>
     </BrowserRouter>
 
